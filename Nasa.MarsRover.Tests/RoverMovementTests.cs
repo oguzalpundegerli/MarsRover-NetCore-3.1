@@ -9,10 +9,10 @@ using Xunit;
 
 namespace Nasa.MarsRover.Tests
 {
-    public class RoverShould
+    public class RoverMovementTests
     {
         readonly IRoverManager _RoverManager;
-        public RoverShould()
+        public RoverMovementTests()
         {
             var bootstrap = new Bootstrapper();
             _RoverManager = bootstrap.ServiceProvider.GetService<IRoverManager>();
