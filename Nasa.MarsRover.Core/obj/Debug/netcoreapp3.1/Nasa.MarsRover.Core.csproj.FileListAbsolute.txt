@@ -1,0 +1,9 @@
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Core\bin\Debug\netcoreapp3.1\Nasa.MarsRover.Core.deps.json
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Core\bin\Debug\netcoreapp3.1\Nasa.MarsRover.Core.dll
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Core\bin\Debug\netcoreapp3.1\Nasa.MarsRover.Core.pdb
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Core\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Core.csprojAssemblyReference.cache
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Core\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Core.AssemblyInfoInputs.cache
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Core\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Core.AssemblyInfo.cs
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Core\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Core.csproj.CoreCompileInputs.cache
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Core\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Core.dll
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Core\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Core.pdb

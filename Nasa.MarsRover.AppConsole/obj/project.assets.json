@@ -1,0 +1,215 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Extensions.DependencyInjection/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Nasa.MarsRover.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Nasa.MarsRover.Core": "1.0.0",
+          "Nasa.MarsRover.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nasa.MarsRover.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nasa.MarsRover.Business.dll": {}
+        }
+      },
+      "Nasa.MarsRover.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Nasa.MarsRover.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nasa.MarsRover.Core.dll": {}
+        }
+      },
+      "Nasa.MarsRover.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Nasa.MarsRover.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nasa.MarsRover.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nasa.MarsRover.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection/5.0.0": {
+      "sha512": "Rc2kb/p3Ze6cP6rhFC3PJRdWGbLvSHZc0ev7YlyeU6FmHciDMLrhoVoTUEzKPhN5ZjFgKF1Cf5fOz8mCMIkvpA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net5.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "sha512": "ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Nasa.MarsRover.Business/1.0.0": {
+      "type": "project",
+      "path": "../Nasa.MarsRover.Business/Nasa.MarsRover.Business.csproj",
+      "msbuildProject": "../Nasa.MarsRover.Business/Nasa.MarsRover.Business.csproj"
+    },
+    "Nasa.MarsRover.Core/1.0.0": {
+      "type": "project",
+      "path": "../Nasa.MarsRover.Core/Nasa.MarsRover.Core.csproj",
+      "msbuildProject": "../Nasa.MarsRover.Core/Nasa.MarsRover.Core.csproj"
+    },
+    "Nasa.MarsRover.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Nasa.MarsRover.Entities/Nasa.MarsRover.Entities.csproj",
+      "msbuildProject": "../Nasa.MarsRover.Entities/Nasa.MarsRover.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.Extensions.DependencyInjection >= 5.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 5.0.0",
+      "Nasa.MarsRover.Business >= 1.0.0",
+      "Nasa.MarsRover.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\09370814\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\09370814\\source\\repos\\Nasa.MarsRover\\Nasa.MarsRover.AppConsole\\Nasa.MarsRover.AppConsole.csproj",
+      "projectName": "Nasa.MarsRover.AppConsole",
+      "projectPath": "C:\\Users\\09370814\\source\\repos\\Nasa.MarsRover\\Nasa.MarsRover.AppConsole\\Nasa.MarsRover.AppConsole.csproj",
+      "packagesPath": "C:\\Users\\09370814\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\09370814\\source\\repos\\Nasa.MarsRover\\Nasa.MarsRover.AppConsole\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\09370814\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\09370814\\source\\repos\\Nasa.MarsRover\\Nasa.MarsRover.Business\\Nasa.MarsRover.Business.csproj": {
+              "projectPath": "C:\\Users\\09370814\\source\\repos\\Nasa.MarsRover\\Nasa.MarsRover.Business\\Nasa.MarsRover.Business.csproj"
+            },
+            "C:\\Users\\09370814\\source\\repos\\Nasa.MarsRover\\Nasa.MarsRover.Entities\\Nasa.MarsRover.Entities.csproj": {
+              "projectPath": "C:\\Users\\09370814\\source\\repos\\Nasa.MarsRover\\Nasa.MarsRover.Entities\\Nasa.MarsRover.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Nasa.MarsRover.Entities/1.0.0": {
+        "dependencies": {
+          "Nasa.MarsRover.Core": "1.0.0"
+        },
+        "runtime": {
+          "Nasa.MarsRover.Entities.dll": {}
+        }
+      },
+      "Nasa.MarsRover.Core/1.0.0": {
+        "runtime": {
+          "Nasa.MarsRover.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nasa.MarsRover.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nasa.MarsRover.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

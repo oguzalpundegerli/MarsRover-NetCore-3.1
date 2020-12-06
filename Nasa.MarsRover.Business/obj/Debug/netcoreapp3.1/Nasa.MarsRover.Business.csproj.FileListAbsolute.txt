@@ -1,0 +1,14 @@
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\bin\Debug\netcoreapp3.1\Nasa.MarsRover.Business.deps.json
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\bin\Debug\netcoreapp3.1\Nasa.MarsRover.Business.dll
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\bin\Debug\netcoreapp3.1\Nasa.MarsRover.Business.pdb
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\bin\Debug\netcoreapp3.1\Nasa.MarsRover.Core.dll
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\bin\Debug\netcoreapp3.1\Nasa.MarsRover.Entities.dll
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\bin\Debug\netcoreapp3.1\Nasa.MarsRover.Core.pdb
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\bin\Debug\netcoreapp3.1\Nasa.MarsRover.Entities.pdb
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Business.csprojAssemblyReference.cache
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Business.AssemblyInfoInputs.cache
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Business.AssemblyInfo.cs
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Business.csproj.CoreCompileInputs.cache
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Business.csproj.CopyComplete
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Business.dll
+C:\Users\09370814\source\repos\Nasa.MarsRover\Nasa.MarsRover.Business\obj\Debug\netcoreapp3.1\Nasa.MarsRover.Business.pdb
