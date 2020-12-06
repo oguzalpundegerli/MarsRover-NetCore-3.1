@@ -28,7 +28,7 @@ namespace Nasa.MarsRover.AppConsole
                 new RoverMovement { PlateauCoordinate="5 5", RoverLocation ="3 3 E",  MovementProcess="MMRMMRMRRM" }
             };
 
-            var result = _RoverManager.MoveRovers(rovers).ToList();
+            var result = _RoverManager.CommandRovers(rovers).ToList();
 
             var sb = new StringBuilder();
             for (int i = 0; i < rovers.Count; i++)

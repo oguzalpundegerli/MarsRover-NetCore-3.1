@@ -60,7 +60,7 @@ namespace Nasa.MarsRover.Tests
         }
 
         [Fact]
-        public void MoveRovers()
+        public void CommandRovers()
         {
             // Arrange
             var rovers = new List<RoverMovement>
@@ -70,7 +70,7 @@ namespace Nasa.MarsRover.Tests
             };
 
             // Act
-            var result = _RoverManager.MoveRovers(rovers).ToList();
+            var result = _RoverManager.CommandRovers(rovers).ToList();
 
             // Assert
             Assert.Equal("1 3 N", $"{result[0].XCoordinate} {result[0].YCoordinate} {result[0].DirectionType}");

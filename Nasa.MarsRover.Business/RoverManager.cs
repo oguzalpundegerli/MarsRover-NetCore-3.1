@@ -90,7 +90,7 @@ namespace Nasa.MarsRover.Business
             return rover;
         }
 
-        public IEnumerable<Rover> MoveRovers(List<RoverMovement> roversMovement)
+        public IEnumerable<Rover> CommandRovers(List<RoverMovement> roversMovement)
         {
             var rovers = new List<Rover>();
             if (roversMovement?.Any() == true)

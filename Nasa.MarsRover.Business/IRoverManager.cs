@@ -8,7 +8,7 @@ namespace Nasa.MarsRover.Business
         Rover TurnLeft(string roverLocation);
         Rover TurnRight(string roverLocation);
         Rover MoveForward(string roverLocation, string plateauCoordinate);
-        IEnumerable<Rover> MoveRovers(List<RoverMovement> roversMovement);
+        IEnumerable<Rover> CommandRovers(List<RoverMovement> roversMovement);
         string GetRoverLocationString(Rover rover);
         string GetPlateauCoordinateString(Plateau plateau);
     }
